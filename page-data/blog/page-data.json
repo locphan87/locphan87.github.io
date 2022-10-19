@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-blog-query-tsx",
+    "path": "/blog",
+    "result": {"data":{"allPost":{"nodes":[{"slug":"/my-vim-plugins","title":"My Vim Plugins","date":"15.09.2021","excerpt":"I use  vim-plug  to mange Vim plugins because it's easy to set up and use. I try to keep my installed plugin list small and minimal. So I…","timeToRead":1,"description":null,"tags":[{"name":"vim","slug":"vim"},{"name":"plugins","slug":"plugins"}]},{"slug":"/pattern-matching-in-java-script","title":"Pattern Matching in JavaScript","date":"02.11.2019","excerpt":"What is pattern matching? Pattern matching  is a common technique in functional programming languages. It allows us to decompose data…","timeToRead":1,"description":null,"tags":[{"name":"javascript","slug":"javascript"},{"name":"pattern-matching","slug":"pattern-matching"}]}]}},"pageContext":{"formatString":"DD.MM.YYYY"}},
+    "staticQueryHashes": ["2744905544","3090400250","318001574"]}
