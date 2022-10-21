@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tag-query-tsx",
+    "path": "/tags/ramda",
+    "result": {"data":{"allPost":{"nodes":[{"slug":"/thinking-in-ramda","title":"Thinking in Ramda","date":"20.01.2018","excerpt":"Bài viết này dựa trên series  Thinking in Ramda  của Randy Coulman. Chúng ta sẽ cùng tìm hiểu: Các nguyên tắc cơ bản của lập trình hàm…","timeToRead":41,"description":null,"tags":[{"name":"javascript","slug":"javascript"},{"name":"functional-programming","slug":"functional-programming"},{"name":"ramda","slug":"ramda"}]}]}},"pageContext":{"slug":"ramda","name":"ramda","formatString":"DD.MM.YYYY"}},
+    "staticQueryHashes": ["2744905544","3090400250","318001574"]}
