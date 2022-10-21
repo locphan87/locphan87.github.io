@@ -2,25 +2,25 @@
 title: About
 slug: "/about"
 ---
-
 ## Who am I?
 
 ![Profile](./profile.jpeg)
 
-I'm Loc, a software engineer with a great passion to personal development, coaching and technology. My hometown is Can Tho City - the capital of the Mekong Delta. Currently, I work and live in Ho Chi Minh City.
+I'm Loc, a software engineer, passionate about personal development, coaching and technology.
+I'm currently working as a principal engineer at NAB Innovation Centre Vietnam ([NICV](https://www.linkedin.com/company/nabvietnam/)) in [Ho Chi Minh City](https://en.wikipedia.org/wiki/Ho_Chi_Minh_City).
+My hometown is [Can Tho](https://en.m.wikipedia.org/wiki/Can_Tho) - the capital of the [Mekong Delta](https://en.wikipedia.org/wiki/Mekong_Delta).
 
 **Favorite Quote**
-> "We will either find a way or make one" - Hannibal
+> We will either find a way or make one <br/>-- Hannibal
 
-I like traveling and reading books. My favorite activities are swimming, playing ping-pong and watching movies with my wife.
+I like traveling and reading books. My favorite activities are swimming and watching movies.
 
 ## Contact information
 My email address is [contact@locphan.dev](mailto:contact@locphan.dev). Email is the best way to reach me.
 
 **Social media**
 - LinkedIn: [loc-phan](https://www.linkedin.com/in/loc-phan/)
-
-I'm not active on other social media sites.
+- Github: [locphan87](https://github.com/locphan87)
 
 **Pronouns**
 - he/him

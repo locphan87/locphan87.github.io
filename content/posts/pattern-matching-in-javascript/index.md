@@ -1,15 +1,17 @@
 ---
 title: Pattern Matching in JavaScript
 date: 2019-11-02
-banner: "./pattern-matching.jpeg"
 tags:
   - javascript
   - pattern-matching
 ---
-## What is pattern matching?
-[Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching) is a common technique in functional programming languages. It allows us to decompose data structures in a concise syntax.
 
-Generating Fibonacci numbers in Haskell
+![Pattern matching](./pattern-matching.jpeg)
+
+## What is pattern matching?
+[Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching) is a common technique in [functional programming](https://en.wikipedia.org/wiki/Functional_programming) languages. It allows us to decompose data structures in a concise syntax.
+
+Generating [Fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_number) in [Haskell](https://www.haskell.org/)
 ```haskell:title=
 fib 0 = 1
 fib 1 = 1
@@ -29,12 +31,12 @@ match (command) {
 }
 ```
 
-At the time of writing, it's at stage 1. While waiting for the official support, I'd like to introduce a simple tool for using pattern matching style in JavaScript.
+At the time of writing, it's at stage 1. While waiting for the official support, I'd like to introduce a simple tool for writing pattern matching style in JavaScript.
 
 ## Meet match-values
 [match-values](https://github.com/locphan87/match-values) allow us to do a simple pattern matching based on JavaScript literals. It helps to write conditional logic in a convenient way. The library is small and there is no dependencies.
 
-Let's check a few examples:
+Let's check out a few examples below
 
 Match a pattern to get a font size
 ```javascript
@@ -80,6 +82,6 @@ match(5, pattern) // correct
 match(1, pattern) // greater
 ```
 
-Read more:
+Read more
 - [What's wrong with the switch statement](https://medium.com/tandemly/whats-wrong-with-the-switch-statement-in-javascript-c560e8ea3c0b)
 - [Bringing Pattern Matching to TypeScript](https://dev.to/gvergnaud/bringing-pattern-matching-to-typescript-introducing-ts-pattern-v3-0-o1k)

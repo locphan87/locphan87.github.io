@@ -1,0 +1,4 @@
+---
+title: Work
+slug: "/work"
+---

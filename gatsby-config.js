@@ -1,20 +1,20 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `An Optimization Engineer`,
-    siteTitleAlt: `AOE - Gatsby Theme`,
-    siteHeadline: `AOE - Gatsby Theme from @lekoarts`,
+    siteTitle: `Loc Phan`,
+    siteTitleAlt: `Loc Phan's Blog`,
+    siteHeadline: `Loc Phan's Blog`,
     siteUrl: `https://locphan.dev`,
-    siteDescription: `AOE - An Optimization Engineer - Loc Phan`,
+    siteDescription: `Personal Blog of Loc Phan`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@locphan`,
+    author: `Loc Phan`,
   },
   plugins: [
     {
@@ -26,21 +26,21 @@ module.exports = {
             title: `Blog`,
             slug: `/blog`,
           },
+          // {
+          //   title: `Work`,
+          //   slug: `/work`,
+          // },
+          // {
+          //   title: `Life`,
+          //   slug: `/life`,
+          // },
           {
             title: `About`,
             slug: `/about`,
           },
         ],
-        externalLinks: [
-          {
-            name: `LinkedIn`,
-            url: `https://www.linkedin.com/in/loc-phan/`,
-          },
-          {
-            name: `Github`,
-            url: `https://github.com/locphan87`,
-          },
-        ],
+        formatString: 'DD/MM/YYYY',
+        externalLinks: [],
       },
     },
     {
@@ -62,9 +62,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Loc Phan`,
+        short_name: `locphan-blog`,
+        description: `Personal blog`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
@@ -104,8 +104,8 @@ module.exports = {
           {
             serialize: ({ query: { site, allPost } }) =>
               allPost.nodes.map((post) => {
-                const url = site.siteMetadata.siteUrl + post.slug
-                const content = `<p>${post.excerpt}</p><div style="margin-top: 50px; font-style: italic;"><strong><a href="${url}">Keep reading</a>.</strong></div><br /> <br />`
+                const url = site.siteMetadata.siteUrl + post.slug;
+                const content = `<p>${post.excerpt}</p><div style="margin-top: 50px; font-style: italic;"><strong><a href="${url}">Keep reading</a>.</strong></div><br /> <br />`;
 
                 return {
                   title: post.title,
@@ -114,7 +114,7 @@ module.exports = {
                   url,
                   guid: url,
                   custom_elements: [{ "content:encoded": content }],
-                }
+                };
               }),
             query: `
               {
@@ -129,7 +129,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `Loc Phan Blog`,
           },
         ],
       },
@@ -144,4 +144,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
